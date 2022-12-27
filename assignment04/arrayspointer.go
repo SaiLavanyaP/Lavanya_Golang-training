@@ -59,7 +59,7 @@ func main() {
 	data := [4]string{"Missouri", "Kansas", "Chicago", "New york"}
 	fmt.Println("5th Ans: Beofore updating data", data)
 	updateThirdElement(&data)
-	fmt.Println("5th Ans: updating third element", data)
+	fmt.Println("5th Ans: third element", data)
 
 	//6th Create a calculator app using pointers
 	firstval := 100
